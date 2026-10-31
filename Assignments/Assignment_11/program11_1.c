@@ -6,7 +6,7 @@
 //  Function NAme   : RangeDisplay
 //  Output          : Integer  
 //  Description     : Accept the two numbers from user and print 
-//                    all the Range between them
+//                    all the Revrse Range between them
 //  Input           : Integer     
 //  Date            : 31/10/2026
 //  Author          : Vaibhav Babasaheb Thorat
