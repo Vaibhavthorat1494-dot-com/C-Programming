@@ -3,7 +3,7 @@
 
 //////////////////////////////////////////////////
 //
-//  Function NAme   : CountTwo
+//  Function NAme   : CountFour
 //  Output          : Integer  
 //  Description     : Accept the two numbers from user and print 
 //                    the display it contains 4 in it.
@@ -13,7 +13,7 @@
 //
 //////////////////////////////////////////////////
 
-int CountTwo(int iNo)
+int CountFour(int iNo)
 {
     int iDigit = 0;
     int iCount = 0;
@@ -42,7 +42,7 @@ int main()
     printf("Enter the Number\n");
     scanf("%d",&iValue);
 
-    bRet = CountTwo(iValue);
+    bRet = CountFour(iValue);
     printf("The Number contains %d Fours\n", bRet);
 
    

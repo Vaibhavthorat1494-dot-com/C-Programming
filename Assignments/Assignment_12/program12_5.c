@@ -1,6 +1,20 @@
 # include<stdio.h>
 # include <stdlib.h>
 
+
+//////////////////////////////////////////////////
+//
+//  Function NAme   : Count
+//  Output          : Integer  
+//  Description     : Accept the two numbers from user and print 
+//                    the display itnumbers less than 6.
+//  Input           : Integer     
+//  Date            : 04/11/2026
+//  Author          : Vaibhav Babasaheb Thorat
+//
+//////////////////////////////////////////////////
+
+
 int Count(int iNo)
 {
     int iCount = 0;
