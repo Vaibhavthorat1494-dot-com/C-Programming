@@ -1,6 +1,18 @@
 # include<stdio.h>
 # include <stdlib.h>
 
+//////////////////////////////////////////////////
+//
+//  Function Name   : FactDiff
+//  Output          : Integer
+//  Description     : Accept the Number from user and print the
+//                    Difference of Sum of Factors and Sum of Non-Factors.
+//  Input           : Integer        
+//  Date            : 04/11/2026
+//  Author          : Vaibhav Babasaheb Thorat
+//
+//////////////////////////////////////////////////
+
 int FactDiff(int iNo)
 {
     int iCount = 0;
