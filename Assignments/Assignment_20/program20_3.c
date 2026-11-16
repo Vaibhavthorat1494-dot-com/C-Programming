@@ -1,0 +1,63 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+//////////////////////////////////////////////////
+//
+//  Function Name   : Pattern
+//  Output          : Integer
+//  Description     : Accept the Row and Column  from user and print the
+//                    Pattern.
+//  Input           : Integer,Integer        
+//  Date            : 16/11/2026
+//  Author          : Vaibhav Babasaheb Thorat
+//
+//////////////////////////////////////////////////
+
+void Pattern(int iRows , int iCol)
+{
+    int i = 0 , j = 0;
+
+    for(i = 1; i<= iRows ; i++)
+    {
+        if( i == 1 || i == iRows )
+        {
+            for(j = 1 ; j<= iCol ; j++)
+            {
+                printf("*\t");
+            }
+        }
+        else 
+        {
+            for(j = 1 ; j<= iCol ; j++)
+            {
+                if (j == 1 || j == iCol)
+                {
+                    printf("*\t");
+                }
+                else if( i + j == iCol + 1)
+                {
+                    printf("*\t");
+                }
+                else
+                {
+                    printf("\t");
+                }
+            }
+        }
+       
+        printf("\n\n\n");
+    }
+
+
+}
+int main()
+{
+    int iValue1 = 0 ,iValue2 = 0;
+
+    printf("Enter Number of Rows and Columns\n");
+    scanf("%d%d",&(iValue1),&(iValue2));
+
+    Pattern(iValue1 , iValue2);
+
+    return EXIT_SUCCESS;
+}
